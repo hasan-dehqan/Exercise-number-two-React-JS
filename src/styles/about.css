@@ -1,0 +1,90 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.about_me {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+h2 {
+    color: #ef982e;
+    font-size: 1.9rem;
+}
+
+/* .about_me {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 90px 300px;
+    color: white;
+} */
+
+/* .about-bg {
+    border-radius: 50%;
+    width: 395px;
+    height: 395px;
+    background-color: #fff;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} */
+
+.about-img {
+    width: 400px;
+    height: 350px;
+    background-image: url("/public/images/imgMe/s1.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 30px;
+    position: absolute;
+    right: 150px;
+    top: 120px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.about-text {
+    margin-top: 80px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.about-text h3 {
+    color: #bdca2f;
+    font-size: 40px;
+}
+
+.about-text p {
+    width: 650px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.mr {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(184, 81, 13) 35%, rgba(0, 212, 255, 1) 100%);
+    /* color: red; */
+    padding: 5px;
+}
+
+.contact {
+    width: 160px;
+    height: 40px;
+    background-color: #1bcf63;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    margin: 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
